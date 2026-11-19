@@ -89,6 +89,6 @@ Orte im Bericht sind standardmäßig unkenntlich gemacht. Der Bericht enthält k
 
 ## 9. Bekannte Einschränkungen von Beta 1
 
-- Kein PDF- und Excel-Export (CSV gibt es), kein Periodenabschluss, Sicherung noch unverschlüsselt, keine Karte. Diese Funktionen folgen als Updates.
+- Kein Excel-Export (CSV und PDF gibt es), Sicherung noch unverschlüsselt, keine Karte. Diese Funktionen folgen als Updates.
 - Die App zeichnet während der Testphase Erkennungssignale auf (für Fehlerberichte). Das lässt sich unter Mehr → Diagnose abschalten; alte Aufzeichnungen löscht die App nach 30 Tagen.
 - Die App ersetzt keine Steuerberatung.
