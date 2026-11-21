@@ -10,6 +10,8 @@ Unter [Releases](../../releases) die neueste Version öffnen und unter „Assets
 
 Wie du die App installierst und einrichtest, steht in der [Anleitung für Tester](ANLEITUNG_TESTER.md).
 
+Was die App ins Internet schickt und wie Fehlerberichte behandelt werden, steht in der [Datenschutzerklärung](DATENSCHUTZ.md).
+
 Spätere Updates meldet die App selbst.
 
 ## Prüfsumme
