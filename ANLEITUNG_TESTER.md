@@ -54,8 +54,9 @@ Alle Daten liegen nur auf deinem Handy. Geht das Handy verloren oder wird die Ap
 - Die App sichert dann einmal täglich und behält die letzten 14 Sicherungen (einstellbar).
 - Gab es 7 Tage keine Sicherung oder schlägt sie fehl, meldet sich die App per Benachrichtigung.
 - „Von Hand sichern“ legt jederzeit zusätzlich eine Sicherung an, die du z. B. per Mail an dich selbst schicken kannst.
+- **Verschlüsseln (empfohlen bei Cloud-Ordnern):** Schalter **Sicherungen verschlüsseln**, Passwort zweimal eingeben. Die Dateien enden dann auf `.fbsich`. **Ohne das Passwort lässt sich eine verschlüsselte Sicherung nicht wiederherstellen.** Niemand kann es zurücksetzen, auch ich nicht.
 
-Wiederherstellen: **Mehr → Datensicherung → Wiederherstellen** und die ZIP-Datei wählen.
+Wiederherstellen: **Mehr → Datensicherung → Wiederherstellen** und die Sicherung (`.zip` oder `.fbsich`) wählen. Bei einer verschlüsselten Sicherung fragt die App nach dem Passwort. Auf einem neuen Handy schaltest du die Verschlüsselung danach wieder ein.
 
 ## 6. Updates
 
@@ -93,6 +94,6 @@ Orte im Bericht sind standardmäßig unkenntlich gemacht. Der Bericht enthält k
 
 ## 9. Bekannte Einschränkungen von Beta 1
 
-- Sicherung noch unverschlüsselt, keine Karte. Diese Funktionen folgen als Updates.
+- Noch keine Karte. Sie folgt als Update.
 - Die App zeichnet während der Testphase Erkennungssignale auf (für Fehlerberichte). Das lässt sich unter Mehr → Diagnose abschalten; alte Aufzeichnungen löscht die App nach 30 Tagen.
 - Die App ersetzt keine Steuerberatung.
