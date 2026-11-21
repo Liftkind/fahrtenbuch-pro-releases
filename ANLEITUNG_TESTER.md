@@ -74,10 +74,11 @@ Dabei sendet die App keine Daten von dir. GitHub sieht nur die übliche Verbindu
 
 - Nach jeder Fahrt kommt eine Benachrichtigung mit km und Strecke. Tippe „Beruflich“ oder „Privat“, oder öffne die Fahrt zum Ergänzen.
 - Offene Fahrten stehen in der **Prüfliste** (Hinweis auf der Übersicht, „… Einträge prüfen“). Bitte innerhalb weniger Tage einordnen.
+- **Schnell einordnen per Wischen:** In der Fahrtenliste und der Prüfliste eine Fahrt nach rechts wischen = beruflich, nach links = privat. Fehlt danach nichts, ist die Fahrt bestätigt. Vertan? In die andere Richtung wischen. Seltene Aktionen wie Stornieren findest du in der Fahrt oben rechts im Menü ⋮.
 - **Tank- und Ladestopps:** Speichere Tankstellen und Ladesäulen, die du öfter nutzt, als Adresse mit dem Typ „Tank- oder Ladestopp“. Eine Pause dort teilt die Fahrt nicht, sie erscheint als Zwischenstopp „Laden“ bzw. „Tanken“. Hast du eine Fahrt doch in zwei Teilen, kannst du sie in der Fahrtenliste zusammenführen.
 - **Fahrt von Hand:** Hat das Auto keinen Beacon (Mietwagen, zweites Auto) oder erkennt die App eine Fahrt nicht, tippe auf der Übersicht oben rechts in der blauen Leiste auf **▶ Start** und bestätige mit **Fahrt starten**. Die App zeichnet dann mit GPS auf. Beenden mit **■ Stopp** oben rechts oder mit „Beenden“ in der Benachrichtigung; die App fragt vorher immer nach. Eine von Hand gestartete Fahrt endet nie von selbst; steht das Auto 30 Minuten, erinnert die App.
 - **Tachostand:** Einmal im Monat (oder wenn die App erinnert) den Tachostand eintragen: **Mehr → Kilometerabgleich**. Kleine Abweichungen (bis 1 %, mindestens 2 km) sind normale Messabweichungen. Mit **Verteilen** rechnet die App sie anteilig auf die erkannten Fahrten seit dem letzten Abgleich um.
-- **Berichte:** Unter **Export** gibt es PDF und CSV, wählbar nach Zeitraum, Fahrzeug, Kategorien und Fahrern. Name und Anschrift für das Deckblatt trägst du unter **Mehr → Angaben für Berichte** ein.
+- **Berichte:** Unter **Export** gibt es PDF, Excel und CSV, wählbar nach Zeitraum, Fahrzeug, Kategorien und Fahrern. Name und Anschrift für das Deckblatt trägst du unter **Mehr → Angaben für Berichte** ein.
 - Fahrten werden nie gelöscht, sondern storniert. Das ist für ein ordnungsgemäßes Fahrtenbuch nötig.
 
 ## 8. Fehler melden
@@ -92,6 +93,6 @@ Orte im Bericht sind standardmäßig unkenntlich gemacht. Der Bericht enthält k
 
 ## 9. Bekannte Einschränkungen von Beta 1
 
-- Kein Excel-Export (CSV und PDF gibt es), Sicherung noch unverschlüsselt, keine Karte. Diese Funktionen folgen als Updates.
+- Sicherung noch unverschlüsselt, keine Karte. Diese Funktionen folgen als Updates.
 - Die App zeichnet während der Testphase Erkennungssignale auf (für Fehlerberichte). Das lässt sich unter Mehr → Diagnose abschalten; alte Aufzeichnungen löscht die App nach 30 Tagen.
 - Die App ersetzt keine Steuerberatung.
