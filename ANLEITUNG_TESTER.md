@@ -80,6 +80,7 @@ Dabei sendet die App keine Daten von dir. GitHub sieht nur die übliche Verbindu
 - **Fahrt von Hand:** Hat das Auto keinen Beacon (Mietwagen, zweites Auto) oder erkennt die App eine Fahrt nicht, tippe auf der Übersicht oben rechts in der blauen Leiste auf **▶ Start** und bestätige mit **Fahrt starten**. Die App zeichnet dann mit GPS auf. Beenden mit **■ Stopp** oben rechts oder mit „Beenden“ in der Benachrichtigung; die App fragt vorher immer nach. Eine von Hand gestartete Fahrt endet nie von selbst; steht das Auto 30 Minuten, erinnert die App.
 - **Tachostand:** Einmal im Monat (oder wenn die App erinnert) den Tachostand eintragen: **Mehr → Kilometerabgleich**. Kleine Abweichungen (bis 1 %, mindestens 2 km) sind normale Messabweichungen. Mit **Verteilen** rechnet die App sie anteilig auf die erkannten Fahrten seit dem letzten Abgleich um.
 - **Berichte:** Unter **Export** gibt es PDF, Excel und CSV, wählbar nach Zeitraum, Fahrzeug, Kategorien und Fahrern. Name und Anschrift für das Deckblatt trägst du unter **Mehr → Angaben für Berichte** ein.
+- **Karte:** In der Fahrt unter „Weitere Angaben“ siehst du die gefahrene Strecke (antippen für groß). Das Kartensymbol im Reiter „Fahrten“ zeigt alle Fahrten eines Monats, das unter **Mehr → Adressen** deine Adressen mit Radius. Dort legt langes Drücken eine neue Adresse an. Die Karte kommt von OpenStreetMap; ohne Netz siehst du Ausschnitte, die du schon einmal angesehen hast. Abschalten: **Mehr → Einstellungen → Kartenkacheln laden**.
 - Fahrten werden nie gelöscht, sondern storniert. Das ist für ein ordnungsgemäßes Fahrtenbuch nötig.
 
 ## 8. Fehler melden
@@ -94,6 +95,5 @@ Orte im Bericht sind standardmäßig unkenntlich gemacht. Der Bericht enthält k
 
 ## 9. Bekannte Einschränkungen von Beta 1
 
-- Noch keine Karte. Sie folgt als Update.
 - Die App zeichnet während der Testphase Erkennungssignale auf (für Fehlerberichte). Das lässt sich unter Mehr → Diagnose abschalten; alte Aufzeichnungen löscht die App nach 30 Tagen.
 - Die App ersetzt keine Steuerberatung.
