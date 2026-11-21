@@ -93,6 +93,5 @@ Orte im Bericht sind standardmäßig unkenntlich gemacht. Der Bericht enthält k
 ## 9. Bekannte Einschränkungen von Beta 1
 
 - Kein Excel-Export (CSV und PDF gibt es), Sicherung noch unverschlüsselt, keine Karte. Diese Funktionen folgen als Updates.
-- Bei großer Schrift bricht der Statusbalken auf zwei Zeilen um. Das ist nur ein Schönheitsfehler.
 - Die App zeichnet während der Testphase Erkennungssignale auf (für Fehlerberichte). Das lässt sich unter Mehr → Diagnose abschalten; alte Aufzeichnungen löscht die App nach 30 Tagen.
 - Die App ersetzt keine Steuerberatung.
