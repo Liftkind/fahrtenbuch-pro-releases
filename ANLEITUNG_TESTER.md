@@ -4,6 +4,8 @@ Danke, dass du mittestest. Diese Version ist eine **Testversion**. Sie erkennt F
 
 **Getestet ab Android 14.** Ältere Geräte (Android 13) können funktionieren, sind aber nicht geprüft.
 
+Diese Anleitung hilft beim Installieren und Einrichten. Wie du im Alltag mit der App arbeitest, steht in der [Hilfe](HILFE.md); in der App öffnest du sie unter **Mehr → Hilfe**.
+
 ## 1. Installieren
 
 1. Auf dem Handy die Release-Seite öffnen: `https://github.com/Liftkind/fahrtenbuch-pro-releases/releases`
@@ -91,7 +93,7 @@ Fehlt eine Fahrt, ist eine Strecke falsch oder stürzt die App ab:
 
 1. **Mehr → Fehler melden**
 2. Zeitraum wählen (z. B. „Heute“) und kurz beschreiben, was passiert ist (Datum, Uhrzeit, was du erwartet hast).
-3. Die ZIP-Datei über das Teilen-Menü per E-Mail an **support@achimwegner.com** schicken.
+3. Im Teilen-Menü E-Mail wählen. Die Adresse **support@achimwegner.com** ist schon eingetragen.
 
 Orte im Bericht sind standardmäßig unkenntlich gemacht. Der Bericht enthält kein Fahrtenbuch, keine Adressen, Namen oder Kennzeichen. Ich werte Berichte auch mit einer KI aus (Claude von Anthropic). Möchtest du das nicht, schreib es in die Beschreibung.
 
