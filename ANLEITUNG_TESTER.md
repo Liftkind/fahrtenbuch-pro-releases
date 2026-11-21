@@ -19,9 +19,11 @@ Beim ersten Start führt dich ein Assistent durch die Einrichtung:
 
 - **Fahrzeug** mit Kennzeichen und aktuellem Kilometerstand vom Tacho
 - **Fahrer**, **Adressen** (Wohnung, Arbeit, ggf. Familienwohnsitz)
-- **Beacon**: Der kleine Sender im Auto (iBeacon). Lege ihn ins Auto, schalte ihn ein und lass die App danach suchen. Ohne Beacon erkennt die App keine Fahrten automatisch; du kannst Fahrten dann nur von Hand eintragen.
+- **Beacon**: Der kleine Sender im Auto (iBeacon, siehe unten). Lege ihn ins Auto, schalte ihn ein und lass die App danach suchen. Ohne Beacon erkennt die App keine Fahrten automatisch; du kannst Fahrten dann nur von Hand eintragen.
 - **Berechtigungen** (Abschnitt 3)
 - **Sicherung**: Wähle hier einen **Sicherungsordner** (Abschnitt 5). Das ist wichtig.
+
+**Welcher Beacon?** Die App funktioniert mit jedem iBeacon. Achte beim Kauf auf drei Dinge: Der Beacon sendet als **iBeacon**, behält immer dieselbe Bluetooth-Adresse (bei manchen Modellen einstellbar), und die Batterie lässt sich wechseln. Gut passt zum Beispiel der **Blue Charm BC05-MultiBeacon** (Batterie CR2477, Sendeleistung einstellbar, bei Amazon.de erhältlich, Lieferung auch nach Österreich). Etwas teurer, mit Bewegungssensor: **Blue Charm BC04P**. Lege den Beacon so ins Auto, dass er nicht in der Sonne liegt, zum Beispiel ins Handschuhfach.
 
 ## 3. Berechtigungen
 
@@ -80,7 +82,7 @@ Dabei sendet die App keine Daten von dir. GitHub sieht nur die übliche Verbindu
 - **Fahrt von Hand:** Hat das Auto keinen Beacon (Mietwagen, zweites Auto) oder erkennt die App eine Fahrt nicht, tippe auf der Übersicht oben rechts in der blauen Leiste auf **▶ Start** und bestätige mit **Fahrt starten**. Die App zeichnet dann mit GPS auf. Beenden mit **■ Stopp** oben rechts oder mit „Beenden“ in der Benachrichtigung; die App fragt vorher immer nach. Eine von Hand gestartete Fahrt endet nie von selbst; steht das Auto 30 Minuten, erinnert die App.
 - **Tachostand:** Einmal im Monat (oder wenn die App erinnert) den Tachostand eintragen: **Mehr → Kilometerabgleich**. Kleine Abweichungen (bis 1 %, mindestens 2 km) sind normale Messabweichungen. Mit **Verteilen** rechnet die App sie anteilig auf die erkannten Fahrten seit dem letzten Abgleich um.
 - **Berichte:** Unter **Export** gibt es PDF, Excel und CSV, wählbar nach Zeitraum, Fahrzeug, Kategorien und Fahrern. Name und Anschrift für das Deckblatt trägst du unter **Mehr → Angaben für Berichte** ein.
-- **Karte:** In der Fahrt siehst du über „Weitere Angaben“ die gefahrene Strecke (antippen für groß). Das Kartensymbol im Reiter „Fahrten“ zeigt alle Fahrten eines Monats, das unter **Mehr → Adressen** deine Adressen mit Radius. Dort legt langes Drücken eine neue Adresse an. Die Karte kommt von OpenStreetMap; ohne Netz siehst du Ausschnitte, die du schon einmal angesehen hast. Abschalten: **Mehr → Einstellungen → Kartenkacheln laden**.
+- **Karte:** In der Fahrt siehst du die gefahrene Strecke auf einer kleinen Karte (antippen für groß, mit zwei Fingern zoomen). Das Kartensymbol im Reiter „Fahrten“ zeigt alle Fahrten eines Monats, das unter **Mehr → Adressen** deine Adressen mit Radius. Dort legt langes Drücken eine neue Adresse an. Die Karte kommt von OpenStreetMap; ohne Netz siehst du Ausschnitte, die du schon einmal angesehen hast. Abschalten: **Mehr → Einstellungen → Kartenkacheln laden**.
 - Fahrten werden nie gelöscht, sondern storniert. Das ist für ein ordnungsgemäßes Fahrtenbuch nötig.
 
 ## 8. Fehler melden
@@ -89,11 +91,18 @@ Fehlt eine Fahrt, ist eine Strecke falsch oder stürzt die App ab:
 
 1. **Mehr → Fehler melden**
 2. Zeitraum wählen (z. B. „Heute“) und kurz beschreiben, was passiert ist (Datum, Uhrzeit, was du erwartet hast).
-3. Die ZIP-Datei über das Teilen-Menü an mich schicken.
+3. Die ZIP-Datei über das Teilen-Menü per E-Mail an **support@achimwegner.com** schicken.
 
-Orte im Bericht sind standardmäßig unkenntlich gemacht. Der Bericht enthält kein Fahrtenbuch, keine Adressen, Namen oder Kennzeichen.
+Orte im Bericht sind standardmäßig unkenntlich gemacht. Der Bericht enthält kein Fahrtenbuch, keine Adressen, Namen oder Kennzeichen. Ich werte Berichte auch mit einer KI aus (Claude von Anthropic). Möchtest du das nicht, schreib es in die Beschreibung.
+
+Fragen und Rückmeldungen jeder Art gern ebenfalls an support@achimwegner.com.
 
 ## 9. Bekannte Einschränkungen von Beta 1
 
 - Die App zeichnet während der Testphase Erkennungssignale auf (für Fehlerberichte). Das lässt sich unter Mehr → Diagnose abschalten; alte Aufzeichnungen löscht die App nach 30 Tagen.
 - Die App ersetzt keine Steuerberatung.
+- „Fahrtenbuch Pro“ ist ein Arbeitstitel. Bis Version 1.0 bekommt die App ihren endgültigen Namen.
+
+## 10. Datenschutz
+
+Deine Fahrten bleiben auf deinem Handy. Was die App ins Internet schickt und wie ich mit Fehlerberichten umgehe, steht in der [Datenschutzerklärung](DATENSCHUTZ.md).
