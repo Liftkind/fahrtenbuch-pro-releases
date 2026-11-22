@@ -77,7 +77,11 @@ GPS misst Strecken nie ganz genau. Deshalb gleichst du regelmäßig mit dem Tach
 
 ## 7. Berichte und Export
 
-Im Reiter **Export** erstellst du PDF, Excel (XLSX) und CSV. Wählbar sind Zeitraum, Fahrzeug, Kategorien und Fahrer. Name und Anschrift für das Deckblatt trägst du unter **Mehr → Angaben für Berichte** ein. Sätze und Pauschalen für die Kostenberechnung stehen unter **Mehr → Pauschalen und Sätze**.
+Einen schnellen Überblick gibt der Reiter **Statistiken**. Stellst du dort **Jahr** oder **Quartal** ein, zeigt ein Balken je Monat, wie viele Kilometer beruflich (blau), privat (grün) und noch nicht eingeordnet (grau) waren. Ein Tipp auf einen Monat zeigt diesen Monat.
+
+Im Reiter **Export** erstellst du PDF, Excel (XLSX) und CSV. Das PDF ist zum Ausdrucken und Weitergeben, Excel zum Lesen und Rechnen. CSV ist reiner Text für andere Programme und zur Archivierung. Wählbar sind Zeitraum, Fahrzeug, Kategorien und Fahrer. Name und Anschrift für das Deckblatt trägst du unter **Mehr → Angaben für Berichte** ein. Sätze und Pauschalen für die Kostenberechnung stehen unter **Mehr → Pauschalen und Sätze**.
+
+Der PDF-Bericht beginnt mit einem Deckblatt: Fahrzeug, Zeitraum, eine Zusammenfassung mit Kilometern und Beträgen je Art und die Tachoabgleiche. Danach folgen die Fahrten, nummeriert und nach Monaten mit Monatssumme. Am Ende steht das Änderungsprotokoll: Zu jeder Fahrt (gleiche Nr.) siehst du, wann was geändert wurde, mit dem Wert vorher und nachher. Fahrten mit späteren Änderungen tragen in der Tabelle den Vermerk „nachträglich geändert“. Der Bericht ist A4 hochkant. Fahren mehrere Personen das Auto, steht bei jeder Fahrt ein Kürzel; was es bedeutet, steht auf dem Deckblatt und über der Fahrtentabelle.
 
 Den fertigen Bericht speicherst du in einem Ordner deiner Wahl oder gibst ihn über das Teilen-Menü weiter, zum Beispiel an deine Steuerberatung.
 
