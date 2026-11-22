@@ -8,12 +8,66 @@ Diese Anleitung hilft beim Installieren und Einrichten. Wie du im Alltag mit der
 
 ## 1. Installieren
 
-1. Auf dem Handy diesen Link öffnen, er lädt immer die neueste Version: `https://github.com/Liftkind/fahrtenbuch-pro-releases/releases/latest/download/roadscript.apk`
-2. Alternativ die Release-Seite `https://github.com/Liftkind/fahrtenbuch-pro-releases/releases` öffnen und beim neuesten Eintrag unter „Assets“ die Datei `roadscript.apk` herunterladen.
-3. Die Datei öffnen. Android fragt, ob der Browser Apps installieren darf: **Einstellungen** → „Aus dieser Quelle zulassen“ einschalten → zurück → **Installieren**.
-4. Google Play Protect warnt eventuell, weil die App nicht aus dem Play Store kommt. „Trotzdem installieren“ wählen.
+Die App kommt nicht aus dem Play Store, sondern als Datei `roadscript.apk` direkt von mir. Android und vor allem Samsung sind dabei vorsichtig und fragen mehrmals nach. Das ist normal. Plane etwa 10 Minuten ein und geh die Schritte der Reihe nach durch. Die Namen der Menüpunkte können je nach Handy leicht abweichen.
+
+### Schritt 0 (nur Samsung): Automatische Sperre ausschalten
+
+Neuere Samsung-Handys haben die **Automatische Sperre**, oft ab Werk eingeschaltet. Sie blockiert jede App, die nicht aus einem Store kommt, und meldet dann nur „Aus Sicherheitsgründen … nicht installieren“, ohne weiterzuhelfen. Deshalb zuerst:
+
+1. **Einstellungen** öffnen (Zahnrad).
+2. **Sicherheit und Datenschutz** antippen.
+3. **Automatische Sperre** antippen und ausschalten.
+   - Findest du den Punkt nicht: In den Einstellungen oben auf die **Lupe** tippen und „Automatische Sperre“ eingeben. Auf manchen Geräten heißt die Einstellung **Maximale Einschränkungen**.
+   - Steht dort schon „Aus“, ist alles gut.
+
+Lässt du die Sperre nach der Installation wieder an, blockiert sie auch die Updates der App. Schalte sie dann für jedes Update kurz aus, oder lass sie während des Tests aus.
+
+### Schritt 1: Datei herunterladen
+
+1. Auf dem **Handy** (nicht am Computer) diesen Link antippen:
+   `https://github.com/Liftkind/fahrtenbuch-pro-releases/releases/latest/download/roadscript.apk`
+   Er lädt immer die neueste Version.
+2. Der Browser (Chrome oder Samsung Internet) warnt, die Datei könnte schädlich sein. **Trotzdem herunterladen** antippen.
+3. Unten erscheint kurz „Download abgeschlossen“. Diese Meldung brauchst du nicht, sie darf verschwinden.
+
+### Schritt 2: Datei öffnen
+
+Am zuverlässigsten öffnest du die Datei über die Dateien-App, nicht aus der Mail und nicht aus der Download-Meldung:
+
+- **Samsung:** App **Eigene Dateien** öffnen (oft im Ordner „Samsung“), dann **Downloads**, dann **roadscript.apk** antippen.
+- **Andere Handys:** App **Dateien** (Files by Google) öffnen, dann **Downloads**, dann **roadscript.apk** antippen.
+
+Liegen dort mehrere Dateien wie `roadscript (1).apk`, nimm die neueste.
+
+### Schritt 3: Installieren erlauben
+
+Android fragt jetzt, ob die Dateien-App Apps installieren darf. Das musst du nur einmal erlauben.
+
+1. In der Meldung „Aus Sicherheitsgründen ist die Installation unbekannter Apps aus dieser Quelle nicht zulässig“ auf **Einstellungen** tippen.
+2. Den Schalter **Erlauben** bzw. **Aus dieser Quelle zulassen** einschalten.
+3. Mit der Zurück-Taste (oder Wischgeste) zurückgehen.
+
+### Schritt 4: Installieren
+
+1. „Möchtest du diese App installieren?“ mit **Installieren** bestätigen.
+2. Warnt **Google Play Protect** („Unsichere App blockiert“ oder „Unbekannte App“): auf **Weitere Details** tippen, dann **Trotzdem installieren**. Die Warnung kommt, weil Google die App nicht kennt, nicht weil etwas mit ihr nicht stimmt.
+3. Nach „App wurde installiert“ auf **Öffnen** tippen. Auf dem Startbildschirm heißt die App **RoadScript**.
 
 Spätere Updates meldet die App selbst (siehe Abschnitt 6). Du musst die Seite nicht beobachten.
+
+### Wenn es nicht klappt
+
+| Meldung oder Problem | Lösung |
+|---|---|
+| „Aus Sicherheitsgründen …“, **ohne** Knopf Einstellungen (Samsung) | Die Automatische Sperre ist an. Schritt 0, dann die Datei noch einmal öffnen. |
+| „Aus Sicherheitsgründen …“, **mit** Knopf Einstellungen | Schritt 3. |
+| Die Erlaubnis von Hand setzen | Samsung: **Einstellungen → Sicherheit und Datenschutz → Weitere Sicherheitseinstellungen → Unbekannte Apps installieren**, dort **Eigene Dateien** (bzw. die App, mit der du die Datei öffnest) wählen und erlauben. Andere Handys: **Einstellungen → Apps → Spezieller App-Zugriff → Unbekannte Apps installieren**. |
+| Beim Antippen der Datei passiert nichts | Die Datei über **Eigene Dateien** bzw. **Dateien** öffnen (Schritt 2), nicht aus der Mail. |
+| „App nicht installiert“ oder „Paket ungültig“ | Der Download ist unvollständig. Datei in Eigene Dateien löschen und Schritt 1 wiederholen, am besten im WLAN. |
+| „App nicht installiert, da das Paket mit einem vorhandenen Paket in Konflikt steht“ | Eine ältere Testfassung von mir ist noch installiert. Melde dich bei mir, bevor du etwas deinstallierst, damit keine Fahrten verloren gehen. |
+| „Nicht mit deinem Gerät kompatibel“ | Die App braucht Android 13 oder neuer (Einstellungen → Telefoninfo → Softwareinformationen). |
+| Diensthandy oder Arbeitsprofil | Meist sperrt die IT der Firma das Installieren. Das lässt sich nur dort ändern. |
+| Nichts davon hilft | Schreib mir an support@achimwegner.com mit Handymodell und einem Foto oder Bildschirmfoto der Meldung. |
 
 ## 2. Einrichtungsassistent
 
