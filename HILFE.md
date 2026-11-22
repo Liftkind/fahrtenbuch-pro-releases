@@ -47,9 +47,19 @@ Nach jeder Fahrt kommt eine Benachrichtigung mit Kilometern und Strecke. Tippe *
 
 **Prüfliste:** Fahrten, bei denen etwas fehlt oder unsicher ist, sammelt die App unter **Mehr → Prüfliste**. Auf der Übersicht steht ein Hinweis „… Einträge prüfen“. Ordne Fahrten bitte innerhalb weniger Tage ein; das Finanzamt erwartet ein zeitnah geführtes Fahrtenbuch.
 
-**Vorschläge:** Unter **Mehr → Einordnungsregeln** legst du Zeitregeln an, etwa „werktags 7 bis 9 Uhr beruflich“. Die App merkt sich außerdem, wie du Fahrten zu bestimmten Adressen eingeordnet hast. Ein Vorschlag ist nur ein Vorschlag; bestätigen musst du selbst.
+**Vorschläge:** Nach jeder Fahrt schlägt die App vor, ob sie beruflich oder privat war und welche Kategorie passt. Ein Vorschlag ist nur ein Vorschlag; bestätigen musst du selbst. Wie der Vorschlag entsteht, steht unten unter „Einordnungsregeln“.
 
 **Korrigieren und stornieren:** Fahrten werden nie gelöscht. Seltene Aktionen wie Stornieren oder Teilen am Zwischenstopp findest du in der Fahrt oben rechts im Menü ⋮. Mehrere Fahrten führst du zusammen, indem du in der Fahrtenliste lange auf eine Fahrt drückst und weitere antippst. Jede Änderung steht mit altem und neuem Wert im Änderungsprotokoll.
+
+### Einordnungsregeln
+
+Die App fragt nacheinander drei Quellen. Die erste, die etwas weiß, gewinnt:
+
+1. **Adresse:** Hat das Ziel (oder der Start) unter **Mehr → Adressen** eine Standard-Einordnung, gilt diese. Beispiel: Kunde Müller → beruflich, Kundenbesuch.
+2. **Gleiche Strecke:** Bist du dieselbe Strecke schon einmal gefahren und hast sie bestätigt, übernimmt die App diese Einordnung, auch für den Rückweg.
+3. **Zeitregel:** Nur wenn 1 und 2 nichts liefern, entscheiden Wochentag und Uhrzeit des Fahrtbeginns. Die Zeitregeln legst du unter **Mehr → Einordnungsregeln** an.
+
+Beispiel für Zeitregeln: „Sa, So, ganzer Tag → privat“ und „Mo–Fr, 07:00–18:00 → beruflich“. Eine unbekannte Fahrt am Samstag wird dann als privat vorgeschlagen. Treffen mehrere Zeitregeln zu, gilt die oberste. Reicht ein Zeitfenster über Mitternacht, zählt der Wochentag des Fahrtbeginns. Eine Regel kannst du abschalten, ohne sie zu löschen; schon eingeordnete Fahrten ändern sich durch neue oder gelöschte Regeln nicht.
 
 ## 4. Fahrt von Hand
 
@@ -129,7 +139,9 @@ Fehlt eine Fahrt, ist sie geteilt, beginnt oder endet sie falsch, oder stürzt d
 
 1. **Mehr → Fehler melden**
 2. Zeitraum wählen, am besten so, dass die betroffene Fahrt drin ist, und kurz beschreiben, was passiert ist.
-3. Im Teilen-Menü E-Mail wählen. Die Adresse **support@achimwegner.com** ist schon eingetragen.
+3. **Erstellen und senden** antippen. Dein E-Mail-Programm öffnet sich mit einer fertigen Mail an **support@achimwegner.com**, der Bericht hängt als ZIP-Datei an. Du tippst nur noch auf Senden.
+
+Hast du kein E-Mail-Programm auf dem Handy, nimm **Anders teilen** und schick den Bericht zum Beispiel per Messenger oder speichere ihn. Beide Knöpfe bleiben nach dem Erstellen stehen, falls du es noch einmal versuchen willst.
 
 Am besten am selben Tag melden. Der Bericht enthält Gerät, App-Version, Einstellungen, das Protokoll der Erkennung und die Signalaufzeichnungen des Zeitraums. Das Fahrtenbuch selbst, Adressen, Namen und Kennzeichen sind nicht enthalten. Orte sind standardmäßig unkenntlich gemacht; Strecken und Geschwindigkeiten bleiben gleich, der Fehler lässt sich also trotzdem nachvollziehen.
 
