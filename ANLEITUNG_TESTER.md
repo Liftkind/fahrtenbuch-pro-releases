@@ -93,7 +93,7 @@ Fehlt eine Fahrt, ist eine Strecke falsch oder stürzt die App ab:
 
 1. **Mehr → Fehler melden**
 2. Zeitraum wählen (z. B. „Heute“) und kurz beschreiben, was passiert ist (Datum, Uhrzeit, was du erwartet hast).
-3. Im Teilen-Menü E-Mail wählen. Die Adresse **support@achimwegner.com** ist schon eingetragen.
+3. Auf **Erstellen und senden** tippen. Dein E-Mail-Programm öffnet sich mit einer fertigen Mail an **support@achimwegner.com**, der Bericht hängt an. Du tippst nur noch auf Senden. Ohne E-Mail-Programm hilft der Knopf **Anders teilen**.
 
 Orte im Bericht sind standardmäßig unkenntlich gemacht. Der Bericht enthält kein Fahrtenbuch, keine Adressen, Namen oder Kennzeichen. Ich werte Berichte auch mit einer KI aus (Claude von Anthropic). Möchtest du das nicht, schreib es in die Beschreibung.
 

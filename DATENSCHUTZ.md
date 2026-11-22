@@ -62,7 +62,7 @@ Rechtsgrundlage für diese Übertragungen ist Art. 6 Abs. 1 lit. f DSGVO. Das be
 
 ## 6. Fehlerberichte und E-Mails an mich
 
-Einen Fehlerbericht erstellst du selbst unter Mehr → Fehler melden. Er enthält Gerät, App-Version, Einstellungen und Protokoll der Fahrterkennung, deine Beschreibung und die Diagnose-Aufzeichnungen des gewählten Zeitraums. Orte sind standardmäßig unkenntlich gemacht (die GPS-Punkte werden an einen anderen Ort verschoben). Das Fahrtenbuch selbst, Adressen, Namen und Kennzeichen sind nicht enthalten. Die App verschickt den Bericht nicht selbst: Du gibst ihn über das Teilen-Menü weiter und entscheidest, ob und an wen.
+Einen Fehlerbericht erstellst du selbst unter Mehr → Fehler melden. Er enthält Gerät, App-Version, Einstellungen und Protokoll der Fahrterkennung, deine Beschreibung und die Diagnose-Aufzeichnungen des gewählten Zeitraums. Orte sind standardmäßig unkenntlich gemacht (die GPS-Punkte werden an einen anderen Ort verschoben). Das Fahrtenbuch selbst, Adressen, Namen und Kennzeichen sind nicht enthalten. Die App verschickt den Bericht nicht selbst: Sie öffnet dein E-Mail-Programm mit einer fertigen Mail an support@achimwegner.com, oder du gibst den Bericht über das Teilen-Menü weiter. Gesendet wird nur, wenn du es dort bestätigst.
 
 Schickst du mir einen Fehlerbericht oder schreibst du mir an support@achimwegner.com, verarbeite ich den Inhalt und deine E-Mail-Adresse, um den Fehler zu finden und dir zu antworten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer fehlerfreien App und an der Beantwortung deiner Anfrage).
 
