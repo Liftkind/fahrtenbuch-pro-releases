@@ -1,4 +1,4 @@
-# Fahrtenbuch Pro – Anleitung für Tester (Beta 1)
+# RoadScript Fahrtenbuch – Anleitung für Tester (Beta 1)
 
 Danke, dass du mittestest. Diese Version ist eine **Testversion**. Sie erkennt Fahrten zuverlässig genug für den Alltag, aber es kann noch Fehler geben. Führe dein offizielles Fahrtenbuch während des Tests deshalb zusätzlich wie bisher weiter.
 
@@ -8,8 +8,8 @@ Diese Anleitung hilft beim Installieren und Einrichten. Wie du im Alltag mit der
 
 ## 1. Installieren
 
-1. Auf dem Handy die Release-Seite öffnen: `https://github.com/Liftkind/fahrtenbuch-pro-releases/releases`
-2. Beim neuesten Eintrag unter „Assets“ die Datei `fahrtenbuch-pro-<version>.apk` antippen und herunterladen.
+1. Auf dem Handy diesen Link öffnen, er lädt immer die neueste Version: `https://github.com/Liftkind/fahrtenbuch-pro-releases/releases/latest/download/roadscript.apk`
+2. Alternativ die Release-Seite `https://github.com/Liftkind/fahrtenbuch-pro-releases/releases` öffnen und beim neuesten Eintrag unter „Assets“ die Datei `roadscript.apk` herunterladen.
 3. Die Datei öffnen. Android fragt, ob der Browser Apps installieren darf: **Einstellungen** → „Aus dieser Quelle zulassen“ einschalten → zurück → **Installieren**.
 4. Google Play Protect warnt eventuell, weil die App nicht aus dem Play Store kommt. „Trotzdem installieren“ wählen.
 
@@ -25,7 +25,7 @@ Beim ersten Start führt dich ein Assistent durch die Einrichtung:
 - **Berechtigungen** (Abschnitt 3)
 - **Sicherung**: Wähle hier einen **Sicherungsordner** (Abschnitt 5). Das ist wichtig.
 
-**Welcher Beacon?** Die App funktioniert mit jedem iBeacon. Achte beim Kauf auf drei Dinge: Der Beacon sendet als **iBeacon**, behält immer dieselbe Bluetooth-Adresse (bei manchen Modellen einstellbar), und die Batterie lässt sich wechseln. Gut passt zum Beispiel der **Blue Charm BC05-MultiBeacon** (Batterie CR2477, Sendeleistung einstellbar, bei Amazon.de erhältlich, Lieferung auch nach Österreich). Etwas teurer, mit Bewegungssensor: **Blue Charm BC04P**. Lege den Beacon so ins Auto, dass er nicht in der Sonne liegt, zum Beispiel ins Handschuhfach.
+**Welcher Beacon?** Die App funktioniert mit jedem iBeacon. Achte beim Kauf auf drei Dinge: Der Beacon sendet als **iBeacon**, behält immer dieselbe Bluetooth-Adresse (bei manchen Modellen einstellbar), und die Batterie lässt sich wechseln. Welches Modell ich empfehle, sage ich dir, sobald ich es selbst mit der App getestet habe. Für den Test brauchst du keinen Beacon: Ohne Beacon tippst du vor der Fahrt auf „Start“, den Rest macht die App genauso. Lege den Beacon so ins Auto, dass er nicht in der Sonne liegt, zum Beispiel ins Handschuhfach.
 
 ## 3. Berechtigungen
 
@@ -44,8 +44,8 @@ Ob alles passt, zeigt der schmale **Statusbalken** oben auf der Übersicht: zwei
 
 Samsung beendet Apps im Hintergrund besonders gern. Zusätzlich einstellen:
 
-1. **Einstellungen → Akku → Hintergrundnutzungslimits → Nie in den Standby-Modus versetzte Apps** → „Fahrtenbuch Pro“ hinzufügen.
-2. **Einstellungen → Apps → Fahrtenbuch Pro → Akku** → „Nicht eingeschränkt“.
+1. **Einstellungen → Akku → Hintergrundnutzungslimits → Nie in den Standby-Modus versetzte Apps** → „RoadScript“ hinzufügen.
+2. **Einstellungen → Apps → RoadScript → Akku** → „Nicht eingeschränkt“.
 3. Die App **nicht** aus der Liste der zuletzt verwendeten Apps wegwischen, wenn es nicht nötig ist.
 
 Die Bezeichnungen können je nach One-UI-Version leicht abweichen.
@@ -103,7 +103,6 @@ Fragen und Rückmeldungen jeder Art gern ebenfalls an support@achimwegner.com.
 
 - Die App zeichnet während der Testphase Erkennungssignale auf (für Fehlerberichte). Das lässt sich unter Mehr → Diagnose abschalten; alte Aufzeichnungen löscht die App nach 30 Tagen.
 - Die App ersetzt keine Steuerberatung.
-- „Fahrtenbuch Pro“ ist ein Arbeitstitel. Bis Version 1.0 bekommt die App ihren endgültigen Namen.
 
 ## 10. Datenschutz
 

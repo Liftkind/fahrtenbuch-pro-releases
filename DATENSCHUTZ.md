@@ -1,6 +1,6 @@
-# Datenschutzerklärung für Fahrtenbuch Pro
+# Datenschutzerklärung für RoadScript Fahrtenbuch
 
-Stand: 21.11.2026
+Stand: 22.11.2026
 
 ## 1. Verantwortlicher
 

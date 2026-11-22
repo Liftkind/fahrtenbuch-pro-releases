@@ -1,4 +1,4 @@
-# Fahrtenbuch Pro – Hilfe
+# RoadScript Fahrtenbuch – Hilfe
 
 Diese Seite erklärt, wie du mit der App im Alltag arbeitest. Wie du sie installierst und einrichtest, steht in der [Anleitung für Tester](ANLEITUNG_TESTER.md). Fragen, die hier nicht beantwortet werden, gern an **support@achimwegner.com**.
 
@@ -14,15 +14,18 @@ Diese Seite erklärt, wie du mit der App im Alltag arbeitest. Wie du sie install
 8. [Karte](#8-karte)
 9. [Datensicherung und Verschlüsselung](#9-datensicherung-und-verschlüsselung)
 10. [Neues Fahrtenbuch beginnen](#10-neues-fahrtenbuch-beginnen)
-11. [Handy wechseln oder verkaufen](#11-handy-wechseln-oder-verkaufen)
-12. [Fehler melden](#12-fehler-melden)
-13. [Häufige Fragen](#13-häufige-fragen)
+11. [Fahrzeug wechseln oder abschließen](#11-fahrzeug-wechseln-oder-abschließen)
+12. [Handy wechseln oder verkaufen](#12-handy-wechseln-oder-verkaufen)
+13. [Fehler melden](#13-fehler-melden)
+14. [Häufige Fragen](#14-häufige-fragen)
 
 ## 1. Erste Schritte
 
 Beim ersten Start führt dich ein Assistent durch Fahrzeug, Fahrer, Adressen, Beacon, Berechtigungen und Sicherungsordner. Die einzelnen Schritte beschreibt die [Anleitung für Tester](ANLEITUNG_TESTER.md), Abschnitte 2 bis 5.
 
 Danach brauchst du die App im Alltag kaum zu öffnen. Sie erkennt Fahrten selbst und fragt nach jeder Fahrt per Benachrichtigung, ob sie beruflich oder privat war.
+
+> **Wichtig:** Ob das Finanzamt ein Fahrtenbuch anerkennt, entscheidet es im Einzelfall. Kläre das bitte vorab mit deiner Steuerberatung. Die App ersetzt keine Steuerberatung, und wir können keine Anerkennung zusagen.
 
 ## 2. Erkennung und Beacon
 
@@ -31,11 +34,11 @@ Danach brauchst du die App im Alltag kaum zu öffnen. Sie erkennt Fahrten selbst
 **Beacon-Warnung:** Auf der Übersicht und als Benachrichtigung „Beacon prüfen“ meldet die App zwei Dinge:
 
 - *Die Batterie des Beacons ist schwach:* Der Beacon meldet weniger als 20 % Batterie. Wechsle sie bald. Nicht jeder Beacon meldet seinen Batteriestand; dann gibt es diese Warnung nicht.
-- *Seit mehr als 3 Tagen nicht gesehen:* Das Handy hat den Beacon 3 Tage lang nicht empfangen. Vielleicht bist du nicht gefahren, der Beacon liegt nicht mehr im Auto oder seine Batterie ist leer. Bist du in der Zeit gefahren, fehlen diese Fahrten vermutlich. Dann bitte einen Fehler melden (Abschnitt 12).
+- *Seit mehr als 3 Tagen nicht gesehen:* Das Handy hat den Beacon 3 Tage lang nicht empfangen. Vielleicht bist du nicht gefahren, der Beacon liegt nicht mehr im Auto oder seine Batterie ist leer. Bist du in der Zeit gefahren, fehlen diese Fahrten vermutlich. Dann bitte einen Fehler melden (Abschnitt 13).
 
 Die App prüft stündlich und meldet jeden Hinweis nur einmal. Ist alles wieder in Ordnung, verschwindet die Benachrichtigung von selbst.
 
-**Samsung-Handys** beenden Apps im Hintergrund besonders gern. Trag die App unter **Einstellungen → Akku → Hintergrundnutzungslimits → Nie in den Standby-Modus versetzte Apps** ein und stell unter **Einstellungen → Apps → Fahrtenbuch Pro → Akku** „Nicht eingeschränkt“ ein. Die Bezeichnungen weichen je nach One-UI-Version leicht ab.
+**Samsung-Handys** beenden Apps im Hintergrund besonders gern. Trag die App unter **Einstellungen → Akku → Hintergrundnutzungslimits → Nie in den Standby-Modus versetzte Apps** ein und stell unter **Einstellungen → Apps → RoadScript → Akku** „Nicht eingeschränkt“ ein. Die Bezeichnungen weichen je nach One-UI-Version leicht ab.
 
 **Beacon tauschen oder neu kalibrieren:** unter **Mehr → Beacon**.
 
@@ -122,7 +125,26 @@ Hast du zuerst Probefahrten gemacht und willst jetzt richtig anfangen: **Mehr �
 - Vorher speichert die App eine Sicherung; aus ihr holst du die alten Daten jederzeit zurück.
 - Danach den aktuellen Tachostand eintragen. Er ist der Startpunkt der Kilometerkette.
 
-## 11. Handy wechseln oder verkaufen
+## 11. Fahrzeug wechseln oder abschließen
+
+**Neues Auto, zum Beispiel beim Auto-Abo oder nach einem Kauf:** **Mehr → Fahrzeuge → Fahrzeug wechseln**. Der Assistent führt in vier Schritten durch:
+
+1. **Altes Fahrzeug abschließen:** Datum und Uhrzeit der Rückgabe oder des Verkaufs, den Tachostand zu diesem Zeitpunkt und den Grund eintragen. Unter dem Feld zeigt die App den Stand, den sie laut Fahrtenbuch erwartet. Weicht dein Tachostand davon ab, kannst du die Differenz auf die Fahrten verteilen oder offen lassen; offene Differenzen erscheinen in der Prüfliste.
+2. **Neues Fahrzeug anlegen:** Modus und Kilometersatz sind vom alten Fahrzeug übernommen und gelten ab dem Übernahmetag. Als Anfangsstand trägst du den Tachostand des neuen Autos bei der Übernahme ein.
+3. **Beacon umziehen:** Der Beacon gehört danach zum neuen Fahrzeug. Nimm ihn aus dem alten Auto mit und lege ihn ins neue; neu koppeln musst du ihn nicht.
+4. **Zusammenfassung prüfen und speichern.** Sie nennt auch eine Differenz beim Tachostand und ob sie verteilt wird oder offen bleibt. Erst jetzt speichert die App alles auf einmal und wählt das neue Fahrzeug aus.
+
+**Auto verkaufen oder zurückgeben, ohne dass ein neues kommt:** Fahrzeug unter **Mehr → Fahrzeuge** öffnen und **Fahrzeug abschließen** wählen. Das geht nur, wenn ein anderes Fahrzeug in Benutzung bleibt. Ein gekoppelter Beacon wird dem anderen Fahrzeug zugeordnet.
+
+**Was danach gilt:**
+
+- Für das alte Fahrzeug sind keine neuen Fahrten mehr möglich, auch keine erkannten. Fahrten, die du vor dem Abschluss vergessen hast, kannst du nachtragen, solange der Monat nicht abgeschlossen ist.
+- Fahrten, Tachoabgleiche und Änderungsprotokoll bleiben vollständig erhalten. Abgeschlossene Fahrzeuge stehen unter **Mehr → Fahrzeuge → Frühere Fahrzeuge**; mit **Fahrten ansehen** zeigt die Fahrtenliste sie wieder an, und du kannst sie wie gewohnt exportieren.
+- Für das neue Fahrzeug sind keine Fahrten vor der Übernahme möglich.
+- Hast du dich vertan, öffnest du das frühere Fahrzeug und wählst **Abschluss zurücknehmen**. Dafür brauchst du eine Begründung, und der Monat des Abschlusses darf noch nicht abgeschlossen sein. Der eingetragene Tachostand bleibt als normaler Kilometerabgleich stehen.
+- Während einer laufenden Fahrt ist kein Wechsel möglich. Beende die Fahrt zuerst.
+
+## 12. Handy wechseln oder verkaufen
 
 **Neues Handy:** Auf dem alten Handy eine Sicherung anlegen (oder die letzte automatische Sicherung nehmen) und auf dem neuen Handy unter **Mehr → Datensicherung → Wiederherstellen** einspielen. Liegt der Sicherungsordner in der Cloud, findest du die Datei dort direkt. Danach auf dem neuen Handy den Sicherungsordner neu wählen, gegebenenfalls die Verschlüsselung wieder einschalten und den Beacon unter **Mehr → Beacon** neu koppeln.
 
@@ -133,7 +155,7 @@ Hast du zuerst Probefahrten gemacht und willst jetzt richtig anfangen: **Mehr �
 3. Eigene Sicherungs- und Exportdateien löschen, die du selbst auf dem Handy abgelegt hast (zum Beispiel im Download-Ordner).
 4. Das Handy auf Werkseinstellungen zurücksetzen.
 
-## 12. Fehler melden
+## 13. Fehler melden
 
 Fehlt eine Fahrt, ist sie geteilt, beginnt oder endet sie falsch, oder stürzt die App ab:
 
@@ -147,7 +169,7 @@ Am besten am selben Tag melden. Der Bericht enthält Gerät, App-Version, Einste
 
 Ich werte Berichte auch mit einer KI aus (Claude von Anthropic). Möchtest du das nicht, schreib es in die Beschreibung. Mehr dazu in der [Datenschutzerklärung](DATENSCHUTZ.md), Abschnitt 6.
 
-## 13. Häufige Fragen
+## 14. Häufige Fragen
 
 **Braucht die App Internet?** Nein. Ins Internet geht sie nur für die Adressauflösung, die Kartenkacheln und die Update-Prüfung. Adressauflösung und Kartenkacheln schaltest du unter **Mehr → Einstellungen** ab, die Update-Prüfung unter **Mehr → Über die App**. Deine Fahrten verlassen das Handy nie von selbst.
 
@@ -157,8 +179,8 @@ Ich werte Berichte auch mit einer KI aus (Claude von Anthropic). Möchtest du da
 
 **Die Kilometer weichen vom Tacho ab.** Das ist normal, GPS misst etwas anders als der Tacho. Trag regelmäßig den Tachostand ein und nutze **Verteilen** (Abschnitt 6).
 
-**Eine Fahrt fehlt.** Sieh im Statusbalken nach, ob die Erkennung grün ist. Trag die Fahrt nach (Abschnitt 4) und melde den Fehler am selben Tag (Abschnitt 12).
+**Eine Fahrt fehlt.** Sieh im Statusbalken nach, ob die Erkennung grün ist. Trag die Fahrt nach (Abschnitt 4) und melde den Fehler am selben Tag (Abschnitt 13).
 
-**Ich fahre einen Mietwagen.** Starte die Fahrt von Hand (Abschnitt 4) und leg das Auto unter **Mehr → Fahrzeuge** an.
+**Ich fahre einen Mietwagen.** Starte die Fahrt von Hand (Abschnitt 4) und leg das Auto unter **Mehr → Fahrzeuge** an. Tauschst du das Auto regelmäßig, etwa im Auto-Abo, nutze **Fahrzeug wechseln** (Abschnitt 11).
 
-**Ersetzt die App eine Steuerberatung?** Nein. Sie hilft dir, ein Fahrtenbuch zu führen. Ob es steuerlich anerkannt wird, entscheidet das Finanzamt.
+**Erkennt das Finanzamt das Fahrtenbuch an?** Ob das Finanzamt ein Fahrtenbuch anerkennt, entscheidet es im Einzelfall. Kläre das bitte vorab mit deiner Steuerberatung. Die App ersetzt keine Steuerberatung, und wir können keine Anerkennung zusagen. Die App hilft dir, ein Fahrtenbuch lückenlos und nachvollziehbar zu führen.
