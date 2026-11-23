@@ -153,7 +153,7 @@ Findet die App nichts („Kein Beacon gefunden“): Ist Bluetooth am Handy einge
 
 Lege den Beacon später so ins Auto, dass er nicht in der Sonne liegt, zum Beispiel ins Handschuhfach.
 
-**Welcher Beacon?** Die App funktioniert mit jedem iBeacon. Beim Kauf auf drei Dinge achten: Er sendet als **iBeacon**, behält immer dieselbe Bluetooth-Adresse (bei manchen Modellen einstellbar), und die Batterie lässt sich wechseln. Welches Modell ich empfehle, sage ich dir, sobald ich es selbst mit der App getestet habe.
+**Welcher Beacon?** Du bist an keinen bestimmten Hersteller gebunden. Beim Kauf auf drei Dinge achten: Er sendet als **iBeacon**, behält immer dieselbe Bluetooth-Adresse (bei manchen Modellen einstellbar), und die Batterie lässt sich wechseln. Welches Modell ich empfehle, sage ich dir, sobald ich es selbst mit der App getestet habe.
 
 ### Schritt 4: Kalibrierung (nur mit Beacon)
 
