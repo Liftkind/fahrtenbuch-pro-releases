@@ -89,6 +89,7 @@ Ob ein Stopp die Fahrt teilt, entscheidet die App nur über dein **Adressbuch**.
 GPS misst Strecken nie ganz genau. Deshalb gleichst du regelmäßig mit dem Tacho ab:
 
 - Einmal im Monat oder wenn die App erinnert, den Tachostand unter **Mehr → Kilometerabgleich** eintragen.
+- Hast du mehrere Fahrzeuge, tippst du oben auf den Fahrzeugnamen mit dem kleinen Pfeil und wählst das Fahrzeug, dessen Tacho du abliest.
 - Kleine Abweichungen bis 1 % (mindestens 2 km) sind normale Messabweichungen.
 - **Verteilen** rechnet die Abweichung anteilig auf die erkannten Fahrten seit dem letzten Abgleich um. Die Kilometerkette schließt dann lückenlos an den Tacho an.
 - Am Monatsende schließt du den Monat unter **Mehr → Monatsabschluss** ab. Danach lassen sich die Fahrten dieses Monats nicht mehr ändern, nur noch stornieren und neu erfassen.
@@ -101,7 +102,9 @@ Im Reiter **Export** erstellst du PDF, Excel (XLSX) und CSV. Das PDF ist zum Aus
 
 Der PDF-Bericht beginnt mit einem Deckblatt: Fahrzeug, Zeitraum, eine Zusammenfassung mit Kilometern und Beträgen je Art und die Tachoabgleiche. Danach folgen die Fahrten, nummeriert und nach Monaten mit Monatssumme. Am Ende steht das Änderungsprotokoll: Zu jeder Fahrt (gleiche Nr.) siehst du, wann was geändert wurde, mit dem Wert vorher und nachher. Fahrten mit späteren Änderungen tragen in der Tabelle den Vermerk „nachträglich geändert“. Der Bericht ist A4 hochkant. Fahren mehrere Personen das Auto, steht bei jeder Fahrt ein Kürzel; was es bedeutet, steht auf dem Deckblatt und über der Fahrtentabelle.
 
-**Mehrere Fahrzeuge:** Hast du mehr als ein Fahrzeug, etwa nach einem Fahrzeugwechsel, bietet das Feld **Fahrzeug** auch **Alle Fahrzeuge**. Dann entsteht ein Bericht über alle Autos im Zeitraum. Das Deckblatt zeigt eine Tabelle der Fahrzeuge mit Gesamtsumme. Danach kommt jedes Fahrzeug mit seinen Fahrten und seiner eigenen Kilometerkette, die Nummern laufen durch. Fahrzeuge ohne Fahrt im Zeitraum fehlen. In Excel und CSV stehen die Fahrten Fahrzeug für Fahrzeug untereinander. In den **Statistiken** zeigt die Auswahl **Alle** zusätzlich die Kilometer je Fahrzeug.
+**Mehrere Fahrzeuge:** Hast du mehr als ein Fahrzeug, etwa nach einem Fahrzeugwechsel, bietet das Feld **Fahrzeug** auch **Alle Fahrzeuge**. Dann entsteht ein Bericht über alle Autos im Zeitraum. Das Deckblatt zeigt eine Tabelle der Fahrzeuge mit Gesamtsumme. Danach kommt jedes Fahrzeug mit seinen Fahrten und seiner eigenen Kilometerkette, die Nummern laufen durch. Fahrzeuge ohne Fahrt im Zeitraum fehlen. In Excel und CSV stehen die Fahrten Fahrzeug für Fahrzeug untereinander. Die **Statistiken** zeigen zuerst das Fahrzeug, das gerade gewählt ist. Die Auswahl **Alle** zeigt alle Fahrzeuge zusammen und zusätzlich die Kilometer je Fahrzeug.
+
+**Fahrzeug wechseln:** Oben in der Übersicht, im Reiter Fahrten und im Kilometerabgleich steht das gewählte Fahrzeug. Bei mehreren Fahrzeugen tippst du auf den Namen mit dem kleinen Pfeil und wählst ein anderes. Die Wahl gilt dann überall in der App. Auf die automatische Erkennung hat sie keinen Einfluss: Welches Auto fährt, erkennt die App am Beacon.
 
 Den fertigen Bericht speicherst du in einem Ordner deiner Wahl oder gibst ihn über das Teilen-Menü weiter, zum Beispiel an deine Steuerberatung.
 
