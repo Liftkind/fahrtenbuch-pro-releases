@@ -1,6 +1,8 @@
 # RoadScript Fahrtenbuch – Hilfe
 
-Diese Seite erklärt, wie du mit der App im Alltag arbeitest. Wie du sie installierst und einrichtest, steht in der [Anleitung für Tester](ANLEITUNG_TESTER.md). Fragen, die hier nicht beantwortet werden, gern an **support@achimwegner.com**.
+> **Neu:** Die Hilfe gibt es jetzt übersichtlicher auf unserer Webseite: **https://achimwegner.com/roadscript/hilfe/** Dort findest du auch die [Installationshilfe](https://achimwegner.com/roadscript/installation/) und [häufige Fragen](https://achimwegner.com/roadscript/faq/).
+
+Diese Seite erklärt, wie du mit der App im Alltag arbeitest. Wie du sie installierst und einrichtest, steht in der [Installationshilfe auf der Webseite](https://achimwegner.com/roadscript/installation/). Fragen, die hier nicht beantwortet werden, gern an **support@achimwegner.com**.
 
 **Inhalt**
 
@@ -21,7 +23,7 @@ Diese Seite erklärt, wie du mit der App im Alltag arbeitest. Wie du sie install
 
 ## 1. Erste Schritte
 
-Beim ersten Start führt dich ein Assistent durch Fahrzeug, Fahrer, Adressen, Beacon, Berechtigungen und Sicherungsordner. Die einzelnen Schritte beschreibt die [Anleitung für Tester](ANLEITUNG_TESTER.md), Abschnitte 2 bis 5.
+Beim ersten Start trägst du Land, Namen und Fahrzeug ein. Danach führt dich ein Assistent in sechs Schritten durch Berechtigungen, Akku, Beacon, Kalibrierung, Datensicherung und das Einschalten der Erkennung. Jeden Schritt mit den genauen Knöpfen beschreibt die [Anleitung für Tester](ANLEITUNG_TESTER.md), Abschnitte 2 bis 5.
 
 Danach brauchst du die App im Alltag kaum zu öffnen. Sie erkennt Fahrten selbst und fragt nach jeder Fahrt per Benachrichtigung, ob sie beruflich oder privat war.
 
@@ -31,16 +33,19 @@ Danach brauchst du die App im Alltag kaum zu öffnen. Sie erkennt Fahrten selbst
 
 **Statusbalken:** Oben auf der Übersicht zeigt ein schmaler Balken zwei Leuchten, eine für die Erkennung und eine für den Beacon. Grün heißt alles in Ordnung. Rot nennt kurz den Grund, etwa „Bluetooth aus“ oder „Standort nicht immer erlaubt“. Antippen führt direkt dorthin, wo du es behebst. Genauere Angaben stehen unter **Mehr → Diagnose**.
 
-**Beacon-Warnung:** Auf der Übersicht und als Benachrichtigung „Beacon prüfen“ meldet die App zwei Dinge:
+**Beacon-Warnung:** Auf der Übersicht und als Benachrichtigung „Beacon prüfen“ meldet die App drei Dinge:
 
 - *Die Batterie des Beacons ist schwach:* Der Beacon meldet weniger als 20 % Batterie. Wechsle sie bald. Nicht jeder Beacon meldet seinen Batteriestand; dann gibt es diese Warnung nicht.
 - *Seit mehr als 3 Tagen nicht gesehen:* Das Handy hat den Beacon 3 Tage lang nicht empfangen. Vielleicht bist du nicht gefahren, der Beacon liegt nicht mehr im Auto oder seine Batterie ist leer. Bist du in der Zeit gefahren, fehlen diese Fahrten vermutlich. Dann bitte einen Fehler melden (Abschnitt 13).
+- *Beacon mit anderer Adresse:* In der Nähe sendet ein Beacon deine Kennung, aber mit einer anderen Bluetooth-Adresse, und dein eigener war seit über einem Tag nicht zu sehen. Meist hat dein Beacon nach einem Batteriewechsel eine neue Adresse bekommen. Such ihn unter **Mehr → Beacon** neu und ordne ihn zu.
 
 Die App prüft stündlich und meldet jeden Hinweis nur einmal. Ist alles wieder in Ordnung, verschwindet die Benachrichtigung von selbst.
 
 **Samsung-Handys** beenden Apps im Hintergrund besonders gern. Trag die App unter **Einstellungen → Akku → Hintergrundnutzungslimits → Nie in den Standby-Modus versetzte Apps** ein und stell unter **Einstellungen → Apps → RoadScript → Akku** „Nicht eingeschränkt“ ein. Die Bezeichnungen weichen je nach One-UI-Version leicht ab.
 
 **Beacon tauschen oder neu kalibrieren:** unter **Mehr → Beacon**.
+
+**Fremde Beacons mit gleicher Kennung:** Viele günstige Beacons kommen mit derselben Werkskennung. Damit der Beacon im Auto neben dir keine Fahrt startet, merkt sich die App beim Zuordnen die Bluetooth-Adresse deines Beacons und zählt ab dann nur ihn. Die Suche unter **Mehr → Beacon** zeigt deshalb zu jedem Beacon auch die Adresse. Sind mehrere mit gleicher Kennung in der Nähe, nimm den stärksten oder leg die anderen weg.
 
 ## 3. Fahrten einordnen
 
@@ -96,6 +101,8 @@ Im Reiter **Export** erstellst du PDF, Excel (XLSX) und CSV. Das PDF ist zum Aus
 
 Der PDF-Bericht beginnt mit einem Deckblatt: Fahrzeug, Zeitraum, eine Zusammenfassung mit Kilometern und Beträgen je Art und die Tachoabgleiche. Danach folgen die Fahrten, nummeriert und nach Monaten mit Monatssumme. Am Ende steht das Änderungsprotokoll: Zu jeder Fahrt (gleiche Nr.) siehst du, wann was geändert wurde, mit dem Wert vorher und nachher. Fahrten mit späteren Änderungen tragen in der Tabelle den Vermerk „nachträglich geändert“. Der Bericht ist A4 hochkant. Fahren mehrere Personen das Auto, steht bei jeder Fahrt ein Kürzel; was es bedeutet, steht auf dem Deckblatt und über der Fahrtentabelle.
 
+**Mehrere Fahrzeuge:** Hast du mehr als ein Fahrzeug, etwa nach einem Fahrzeugwechsel, bietet das Feld **Fahrzeug** auch **Alle Fahrzeuge**. Dann entsteht ein Bericht über alle Autos im Zeitraum. Das Deckblatt zeigt eine Tabelle der Fahrzeuge mit Gesamtsumme. Danach kommt jedes Fahrzeug mit seinen Fahrten und seiner eigenen Kilometerkette, die Nummern laufen durch. Fahrzeuge ohne Fahrt im Zeitraum fehlen. In Excel und CSV stehen die Fahrten Fahrzeug für Fahrzeug untereinander. In den **Statistiken** zeigt die Auswahl **Alle** zusätzlich die Kilometer je Fahrzeug.
+
 Den fertigen Bericht speicherst du in einem Ordner deiner Wahl oder gibst ihn über das Teilen-Menü weiter, zum Beispiel an deine Steuerberatung.
 
 ## 8. Karte
@@ -139,7 +146,7 @@ Hast du zuerst Probefahrten gemacht und willst jetzt richtig anfangen: **Mehr �
 **Was danach gilt:**
 
 - Für das alte Fahrzeug sind keine neuen Fahrten mehr möglich, auch keine erkannten. Fahrten, die du vor dem Abschluss vergessen hast, kannst du nachtragen, solange der Monat nicht abgeschlossen ist.
-- Fahrten, Tachoabgleiche und Änderungsprotokoll bleiben vollständig erhalten. Abgeschlossene Fahrzeuge stehen unter **Mehr → Fahrzeuge → Frühere Fahrzeuge**; mit **Fahrten ansehen** zeigt die Fahrtenliste sie wieder an, und du kannst sie wie gewohnt exportieren.
+- Fahrten, Tachoabgleiche und Änderungsprotokoll bleiben vollständig erhalten. Abgeschlossene Fahrzeuge stehen unter **Mehr → Fahrzeuge → Frühere Fahrzeuge**; mit **Fahrten ansehen** zeigt die Fahrtenliste sie wieder an, und du kannst sie wie gewohnt exportieren, allein oder mit **Alle Fahrzeuge** zusammen mit dem neuen Auto (Abschnitt 7).
 - Für das neue Fahrzeug sind keine Fahrten vor der Übernahme möglich.
 - Hast du dich vertan, öffnest du das frühere Fahrzeug und wählst **Abschluss zurücknehmen**. Dafür brauchst du eine Begründung, und der Monat des Abschlusses darf noch nicht abgeschlossen sein. Der eingetragene Tachostand bleibt als normaler Kilometerabgleich stehen.
 - Während einer laufenden Fahrt ist kein Wechsel möglich. Beende die Fahrt zuerst.
