@@ -1,6 +1,6 @@
 # Datenschutzerklärung für RoadScript Fahrtenbuch
 
-Stand: 22.11.2026
+Stand: 27.11.2026
 
 ## 1. Verantwortlicher
 
@@ -47,8 +47,8 @@ Die Daten liegen in einem geschützten Bereich der App, auf den andere Apps nich
 
 Jede Verbindung überträgt technisch bedingt die IP-Adresse deines Geräts an den jeweiligen Anbieter.
 
-**Adressauflösung** (abschaltbar): Um aus GPS-Koordinaten eine lesbare Adresse zu machen, sendet die App die Koordinaten von Start und Ziel an einen Adressdienst, je nach Einstellung an den Android-Geocoder (Google) oder an OpenStreetMap Nominatim (OpenStreetMap Foundation, Großbritannien). Ohne Adressauflösung zeigt die App Koordinaten, und du kannst die Adresse von Hand eintragen.
-Datenschutzhinweise: [Google](https://policies.google.com/privacy), [OpenStreetMap Foundation](https://osmfoundation.org/wiki/Privacy_Policy)
+**Adressauflösung** (abschaltbar): Um aus GPS-Koordinaten eine lesbare Adresse zu machen, übergibt die App die Koordinaten von Start und Ziel an den Adressdienst von Android (Geocoder). Diesen Dienst stellt das Betriebssystem bereit, auf Geräten mit Google-Diensten ist das Google. Umgekehrt schickt die App die Anschrift einer gespeicherten Adresse ohne Koordinaten an diesen Dienst, um ihre Lage zu ermitteln. Ohne Adressauflösung zeigt die App Koordinaten, und du kannst die Adresse von Hand eintragen.
+Datenschutzhinweise: [Google](https://policies.google.com/privacy)
 
 **Kartenansicht** (abschaltbar unter „Kartenkacheln laden“): Für den Kartenhintergrund lädt die App Kartenkacheln vom Kachelserver der OpenStreetMap Foundation (Großbritannien). Dabei erfährt der Server deine IP-Adresse und welchen Kartenausschnitt du ansiehst, nicht aber deine Fahrten, Routen oder Adressen; die zeichnet die App selbst auf die Karte. Angesehene Kacheln speichert die App bis zu 100 MB auf dem Gerät. Ausgeschaltet zeigt die Karte Routen und Adressen auf neutralem Hintergrund, ohne Netzzugriff.
 Datenschutzhinweise: [OpenStreetMap Foundation](https://osmfoundation.org/wiki/Privacy_Policy)
